@@ -15,7 +15,7 @@ spec:
       volumeMounts:
       - mountPath: /usr/share/nginx/html
         name: my-vol
-  volunes:
+  volumes:
     - name: my-vol
       hostPath:
         path: /var/lib/my-data
